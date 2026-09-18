@@ -1,6 +1,6 @@
 # Detour for Claude
 
-This is the public Claude plugin distribution package for [Detour](https://detour.discomedia.co), a hosted service for creating and maintaining private maps. It connects Claude to Detour's production remote MCP server; it contains no local server, API key, backend source, or user credentials.
+This is the public Claude plugin distribution package for [Detour](https://detour.discomedia.co), a hosted service for creating and maintaining private maps. It connects Claude Code and Claude Cowork to Detour's production remote MCP server; it contains no local server, API key, backend source, or user credentials. Standard Claude Chat does not execute installed plugins.
 
 ## What it does
 
