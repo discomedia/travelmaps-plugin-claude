@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Detour</title>
+  <desc id="desc">A warm amber map pin over a folded green map.</desc>
+  <rect width="512" height="512" rx="112" fill="#F8F4EC"/>
+  <path d="M79 145 195 97l126 48 112-46v266l-112 48-126-48-116 48V145Z" fill="#E6F0E4" stroke="#176B52" stroke-width="28" stroke-linejoin="round"/>
+  <path d="m195 97v268m126-220v268" fill="none" stroke="#176B52" stroke-width="28" stroke-linecap="round"/>
+  <path d="M258 121c-57 0-103 46-103 103 0 83 103 188 103 188s103-105 103-188c0-57-46-103-103-103Z" fill="#F2A83B" stroke="#176B52" stroke-width="28" stroke-linejoin="round"/>
+  <circle cx="258" cy="224" r="34" fill="#176B52"/>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "detour",
+  "displayName": "Detour",
+  "version": "0.7.0",
+  "description": "Create and maintain private maps with Detour.",
+  "author": {
+    "name": "Disco Media",
+    "email": "support@discomedia.co",
+    "url": "https://github.com/discomedia"
+  },
+  "homepage": "https://detour.discomedia.co",
+  "repository": "https://github.com/discomedia/travelmaps-plugin-claude",
+  "keywords": ["travel", "maps", "places"]
+}
