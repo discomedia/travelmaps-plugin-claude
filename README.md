@@ -6,6 +6,11 @@ This is the public Claude plugin distribution package for [Detour](https://detou
 
 Use Detour to create and organize private maps and save researched places with coordinates, public descriptions, addresses, hours, source URLs, and Google Maps place permalinks. Research remains in your client; Detour stores only the places you choose to save.
 
+After a map read or successful content change, Detour returns a portrait map
+preview. MCP Apps-capable clients render it inline; other compatible clients
+receive the same preview as standard MCP image content. The preview is
+display-only and does not add a browser-based editing surface.
+
 The plugin starts the browser-based Detour OAuth flow when access is needed. Approve `maps:read` to view your maps and `maps:write` to create or change them. `offline_access` lets a compatible client renew an approved session without asking you to sign in again.
 
 Detour never asks Claude to provide a password, MFA code, API key, or Google Maps credential.
