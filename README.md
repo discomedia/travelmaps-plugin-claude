@@ -40,3 +40,21 @@ change.
 
 For support, include the client, Detour tool name, and a concise description of
 the result. Never send access tokens or passwords.
+
+
+## Tool permissions and destination privacy
+
+The server exposes 17 tools, including atomic create/edit/archive/purge batches.
+Reading maps, searching saved places, and listing maps do not create an account
+profile or update its activity timestamp. Editing fields is labeled destructive
+because prior values cannot be restored with an undo action; edits still require
+map versions and idempotency keys. Removal, clear, archive and purge retain
+preview/confirmation safeguards.
+
+Coordinates and addresses describe destinations you explicitly choose to save,
+not your current/device location or a request for your home/work address.
+Preview-producing tools are labeled open-world: the server sends the computed
+center, zoom and image settings to LocationIQ. For a single pin the center can
+identify that destination. Map titles, notes, account identity and marker lists
+are not sent. Batch tools do not render images or contact LocationIQ. See the
+[privacy policy](https://detour.discomedia.co/privacy) for retention and deletion.
