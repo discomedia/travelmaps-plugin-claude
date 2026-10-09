@@ -48,7 +48,11 @@ The server exposes 17 tools, including atomic create/edit/archive/purge batches.
 Reading maps, searching saved places, and listing maps do not create an account
 profile or update its activity timestamp. Editing fields is labeled destructive
 because prior values cannot be restored with an undo action; edits still require
-map versions and idempotency keys. Removal, clear, archive and purge retain
+map versions and idempotency keys. Restoring a map is also labeled destructive
+because it overwrites saved archive state. All 17 tools explicitly declare
+read-only, destructive, open-world and idempotent boolean hints; retries reuse
+the original committed result without refreshing profile activity timestamps.
+Removal, clear, archive and purge retain
 preview/confirmation safeguards.
 
 Coordinates and addresses describe destinations you explicitly choose to save,
